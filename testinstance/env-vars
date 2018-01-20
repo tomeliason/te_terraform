@@ -1,0 +1,18 @@
+### Authentication details
+export TF_VAR_tenancy_ocid=ocid1.tenancy.oc1..aaaaaaaa3qdkaw43xhwavnba3xp6xxo3qp237huw7u7vaonkjayikm3lagqq
+export TF_VAR_user_ocid=ocid1.user.oc1..aaaaaaaa6gkyih3ur32ltibzcbbr6auwhm2ebhh2oemdqjr3apcawzbbykoa
+export TF_VAR_compartment_ocid=ocid1.tenancy.oc1..aaaaaaaa3qdkaw43xhwavnba3xp6xxo3qp237huw7u7vaonkjayikm3lagqq
+export TF_VAR_fingerprint=b6:d0:a4:be:b8:b8:14:8d:d5:dd:b4:c1:23:45:39:4e
+export TF_VAR_private_key_path=/home/tom.eliason/.oci/oci_api_key.pem
+
+### Region
+export TF_VAR_region="us-ashburn-1"
+
+
+### Public/private keys used on the instance
+export TF_VAR_ssh_public_key=$(cat /home/tom.eliason/.ssh/id_rsa.pub)
+export TF_VAR_ssh_private_key=$(cat /home/tom.eliason/.ssh/id_rsa)
+## NOTE: These are not your api keys. More info on the right keys see
+## https://docs.us-phoenix-1.oraclecloud.com/Content/Compute/Tasks/managingkeypairs.htm
+
+
